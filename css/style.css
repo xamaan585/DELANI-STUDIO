@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+:root{
+    box-sizing: border-box;
+    --blue-color: #5c84ec;
+    --pink-color: #f03c6d;
+    --paragraph-color: #707070;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(var(--blue-color),var(--pink-color));
+    border-radius: 20px;
+}
+*,::before,::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Mulish',sans-serif;
+    background: #f9fbff;
+}
+h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--paragraph-color)
+}
+a{
+    font-size: 1rem;
+    color: #fff;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mt-70{
+    margin-top: 70px;
+}
+
+/* Hero section */
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero-content{
+    color: white;
+}
+
+/* About section*/
+.about{
+    padding: 30px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Service section */
+.service{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+h2{
+    margin-bottom: 50px;
+}
+
+/* WHAT WE DO section */
+.wwd {
+    padding: 50px;
+}
+.wwd-text{
+    font-size: 15px;
+}
+#magic1,
+#magic2,
+#magic3 {
+    display: none;
+}
+.portfolio {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 40px;
+}
+/* contact section */
+.container-fluid {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+}
+.foot-img{
+    image-align: center;
+}
+
+.footer-msg{
+    padding: 30px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.foot-img{
+    margin-
+}
