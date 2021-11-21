@@ -1,7 +1,7 @@
 # DELANI STUDIO
 
 ## VISIT MY PAGE WITH THIS LINK
-   ###[DELANI-STUDIO](https://github.com/xamaan585/Delani-Studio)
+   ###[DELANI-STUDIO](https://github.com/xamaan585/DELANI-STUDIO)
 
 ## Description
 This is a page for our studio for our customers to know our services and wher they can reach us.
